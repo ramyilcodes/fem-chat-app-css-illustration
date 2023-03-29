@@ -112,7 +112,6 @@ img {
 
 h1 {
   font-size: 0.8rem;
-  font-weight: 00;
 }
 
 p{
@@ -215,14 +214,14 @@ span{
 .extra h1 {
   color: hsl(271, 36%, 24%);
   margin: 3rem 0 1.5rem;
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .extra p {
   color: hsl(206, 6%, 79%);
   line-height: 1.6;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .purple {
