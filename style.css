@@ -225,7 +225,7 @@ span{
 }
 
 .purple {
-  background-color: hsl(276, 93%, 72%);
+  background: linear-gradient(to top, hsl(293, 100%, 63%), hsl(264, 100%, 61%));;
   /* position:absolute; */
   grid-column-start: 1;
   grid-column-end: 4;
