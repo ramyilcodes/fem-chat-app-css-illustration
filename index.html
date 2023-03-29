@@ -4,125 +4,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <link rel="stylesheet" href="style.css">
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  <!-- styles -->
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Chat App CSS Illustration</title>
+
 </head>
 
 <body>
-
-  <section>
-    <div id="content">
-      <!--Left Vi<div class="clearfix"></div>olet-->
-      <aside>
-        <div class="rec_radL"></div>
-        <div class="circle"></div>
-
-      </aside>
-      <div id="clearfix"></div>
-      <!--Start Phone-->
-      <div id="phone">
-        <div id="screen">
-          <div id="camFront"></div>
-          <div id="toWalk">
-            <p class="arrow">&#60;</p>
-            <div id="avatar">
-              <img src="images/avatar.jpg" alt="">
-            </div>
-            <h2>Samuel Green</h2>
+  <div class="purple"></div>
+  <div class="ash"></div>
+  <div class="phone">
+    <div class="top">
+      <div class="space"></div>
+      <div class="content">
+        <div class="name">&lt;
+          <img src="./images/avatar.jpg" alt="">
+          <div>
+            <h1>Samuel Green</h1>
             <p>Available to Walk</p>
-            <p class="deg">...</p>
-          </div>
-          <div class="chat1" id="msj1">
-            <p>
-              That sounds great. I’d be happy with that.
-            </p>
-          </div>
-          <div class="chat1" id="msj2">
-            <p>
-              Could you send over some pictures of your dog, please?
-
-          </div>
-          <div id="dog">
-            <img src="images/dog-image-1.jpg" alt="">
-            <img src="images/dog-image-2.jpg" alt="">
-            <img src="images/dog-image-3.jpg" alt="">
-          </div>
-          <div class="chat2" id="msj3">
-            <p> Here are a few pictures. She’s a happy girl!
-            </p>
-          </div>
-          <div class="chat2 p2" id="msj4">
-            <p>
-              Can you make it?
-            </p>
-          </div>
-          <div class="chat1 p3" id="msj5">
-            <p>
-              She looks so happy! The time we discussed works. How long shall I take her out for?
-            </p>
-          </div>
-          <div class="walk msj6">
-            <div class="circleText"></div>
-            <p>
-              30 minute walk
-            <p class="price">$29</p>
-            </p>
-          </div>
-          <div class="walk msj6">
-            <div class="circleText"></div>
-            <p>
-              1 hour walk
-            <p class="price"> $49</p>
-            </p>
-          </div>
-          <div id="type">
-            <p>
-              Type a message…
-            <div id="arrowBlack">
-              <p>&#62;</p>
-            </div>
-            </p>
           </div>
         </div>
+        <div class="dot">
+          <div>.</div>
+          <div>.</div>
+          <div>.</div>
+        </div>
       </div>
-      <!--End Phone-->
-      <!--Text center-->
-      <div id="center">
-        <h1>
-          Simple booking
-        </h1>
-        <p> Stay in touch with our dog walkers through the chat interface. This makes it easy to
-          discuss arrangements and make bookings. Once the walk has been completed you can rate
-          your walker and book again all through the chat.
-        </p>
-      </div>
-      <div id="clearfix"></div>
-      <div id="clearfix"></div>
-      <!--Right Violet-->
-      <aside>
-        <div class="rec_radR"></div>
-      </aside>
-      <!--Right Violet-->
     </div>
-
-  </section>
-
+    <div class="inside">
+      <div>
+        <div class="sender">
+          <p>That sounds great. I’d be happy to discuss more.</p>
+        </div>
+        <div class="sender">
+          <p>Could you send over some pictures of your dog, please?</p>
+        </div>
+        <div class="right">
+          <div class="dogs">
+            <img src="./images/dog-image-1.jpg" alt="">
+            <img src="./images/dog-image-2.jpg" alt="">
+            <img src="./images/dog-image-3.jpg" alt="">
+          </div>
+          <div class="receiver">
+            <p>Here are a few pictures. She’s a happy girl!</p>
+          </div>
+          <div id="two" class="receiver">
+            <p>Can you make it?</p>
+          </div>
+        </div>
+        <div class="sender">
+          <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+        </div>
+        <div class="bottom">
+          <div>
+            <section></section>
+            <p>30 minute walk</p>
+          </div>
+          <span>$29</span>
+        </div>
+        <div class="bottom">
+          <div>
+            <section></section>
+            <p>1 hour walk</p>
+          </div>
+          <span>$49</span>
+        </div>
+        <div class="textarea">
+          <p>Type a message…</p>
+          <section>></section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="extra">
+    <h1>Simple booking</h1>
+    <p>
+      Stay in touch with our dog walkers through the chat interface. This makes it easy to
+      discuss arrangements and make bookings. Once the walk has been completed you can rate
+      your walker and book again all through the chat.
+    </p>
+  </div>
+  <div class="grey"></div>
 </body>
 
 </html>
