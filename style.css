@@ -253,9 +253,10 @@ span{
 }
 
 .extra p {
-  color: hsl(206, 6%, 79%);
+  color: hsl(270, 7%, 64%);
   line-height: 1.6;
   font-size: 1rem;
+  font-weight: 400;
 }
 
 
